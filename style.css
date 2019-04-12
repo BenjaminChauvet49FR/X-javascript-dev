@@ -1,0 +1,118 @@
+table,div{
+	cursor:default;
+}
+
+#zoneJoueurs{
+	/*float:right;*/
+}
+/* Joueurs */
+
+
+#joueur1{
+	border-color: #00c000;
+	background-color: #88ff88;
+}
+#joueur2{
+	border-color: #6000c0;
+	background-color: #ffccff;
+}
+
+.joueur{
+	float:right;
+	width:160px;
+	/* height:240px;*/
+	padding: 10px;
+	border:5px solid;
+}
+
+.joueur[actif="true"]{
+	box-shadow : inset 0 0 32px #ffffff;
+}
+
+/*   Persos */
+
+.personnage{
+	background-color: #dfbf88;
+	border:3px solid;
+	margin-bottom:2px;
+	border-color: #b06000;
+}
+
+.personnage[disponible="true"]{
+	box-shadow : inset 0 0 32px #ffff00;
+}
+
+.personnage[selectionne="true"]{
+	box-shadow : inset 0 0 32px #ffffff;
+}
+
+.apprendre {
+	background-color:#ffe000;
+}
+
+/*Zones*/
+
+.pris{
+	border:2px solid;
+	height:120px;
+	width:48px;
+	border-color: #cccccc;
+	background-color:#eeeeee;
+}
+
+#zoneChamps .pasPris{
+	border:2px solid;
+	height:120px;
+	width:48px;
+	border-color: #888800;
+	background-color:#c0c000;
+}
+
+#zoneMine .pasPris{
+	border:2px solid;
+	height:120px;
+	width:48px;
+	border-color: #888888;
+	background-color:#ddccff
+}
+
+/*Autres zones de jeu*/
+
+#zoneRepos {
+	border:2px solid;
+	height:24px;
+	width:48px;
+	border-color: #cc88cc;
+	background-color:#ffccff
+}
+
+.batiment{
+	border:2px solid;
+	height:192px;
+	width:120px;
+	border-color: #cccccc;
+	background-color:#eeeeee;
+}
+
+/*Misc*/
+
+#nouvelleManche{
+	float:right;
+	border:3px solid;
+	border-color: #e080e0;
+	background-color: #f0f0f0;
+}
+
+#sauver{
+	float:right;
+	border:3px solid;
+	border-color: #e06060;
+	background-color: #f0d0d0;
+}
+
+#charger{
+	float:right;
+	border:3px solid;
+	border-color: #606060;
+	background-color: #f0f0f0;
+}
